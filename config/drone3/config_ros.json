@@ -40,11 +40,11 @@
     "points_time_offset": 0.0,
     "acc_scale": 1.0,
     // TF config
-    "imu_frame_id": "imu",
-    "lidar_frame_id": "livox_frame",
+    "imu_frame_id": "drone3/imu",
+    "lidar_frame_id": "drone3/livox_frame",
     "base_frame_id": "",
-    "odom_frame_id": "odom",
-    "map_frame_id": "map",
+    "odom_frame_id": "drone3/odom",
+    "map_frame_id": "drone3/map",
     "publish_imu2lidar": true,
     "tf_time_offset": 1e-6,
     // Extension modules
